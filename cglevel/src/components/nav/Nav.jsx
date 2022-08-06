@@ -1,14 +1,16 @@
 import React from 'react'
 
+import "./nav.css"
+
 export const Nav = () => {
   return (
     <div>
         <ul>
-            <li>1</li>
-            <li>2</li>
-            <li>3</li>
-            <li>4</li>
-            <li>5</li>
+            <li> <a href="#">Home</a></li>
+            <li> <a href="#">About</a></li>
+            <li> <a href="#">Contact</a></li>
+            <li> <a href="#">Support</a></li>
+            <li> <a href="#">Terms</a></li>
         </ul>
     </div>
   )
