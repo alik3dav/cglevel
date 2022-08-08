@@ -1,0 +1,32 @@
+.card {
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    margin: 30px;
+    width: 320px;
+    height: 450px;
+    background-color: #fff;
+    border: 2px solid red;
+    border-radius: 6px;
+    box-shadow: 0 0 6px 1px rgba(219, 219, 219, 0.568);
+}
+.card:hover {
+    box-shadow: 0 0 6px 4px rgba(219, 219, 219, 0.568);
+}
+.card-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    width: 320px;
+    height: 320px;
+    object-fit: cover;
+}
+.card-image img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.card-footer{
+    background-color: #fff;
+}
